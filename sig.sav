@@ -1,0 +1,162 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Thu Jun  5 13:32:06 2025
+[*]
+[dumpfile] "/Users/viola/Desktop/HDL/conv/test.vcd"
+[dumpfile_mtime] "Thu Jun  5 13:25:18 2025"
+[dumpfile_size] 59839
+[savefile] "/Users/viola/Desktop/HDL/conv/sig.sav"
+[timestart] 0
+[size] 1440 779
+[pos] -1 -1
+*-11.812412 2470 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] tb_conv.
+[sst_width] 255
+[signals_width] 169
+[sst_expanded] 1
+[sst_vpaned_height] 264
+@200
+-Conv
+@24
+tb_conv.conv.clk
+@c00024
+tb_conv.conv.win_data0[7:0]
+@28
+(0)tb_conv.conv.win_data0[7:0]
+(1)tb_conv.conv.win_data0[7:0]
+(2)tb_conv.conv.win_data0[7:0]
+(3)tb_conv.conv.win_data0[7:0]
+(4)tb_conv.conv.win_data0[7:0]
+(5)tb_conv.conv.win_data0[7:0]
+(6)tb_conv.conv.win_data0[7:0]
+(7)tb_conv.conv.win_data0[7:0]
+@1401200
+-group_end
+@24
+tb_conv.conv.win_data1[7:0]
+tb_conv.conv.win_data2[7:0]
+tb_conv.conv.win_data3[7:0]
+tb_conv.conv.win_data4[7:0]
+tb_conv.conv.win_data5[7:0]
+tb_conv.conv.win_data6[7:0]
+tb_conv.conv.win_data7[7:0]
+tb_conv.conv.win_data8[7:0]
+@201
+-
+@24
+tb_conv.conv.OFMD_addr[5:0]
+tb_conv.conv.total_sum[15:0]
+@200
+-
+@24
+tb_conv.conv.clk
+@c00024
+tb_conv.conv.IFMD_out[7:0]
+@28
+(0)tb_conv.conv.IFMD_out[7:0]
+(1)tb_conv.conv.IFMD_out[7:0]
+(2)tb_conv.conv.IFMD_out[7:0]
+(3)tb_conv.conv.IFMD_out[7:0]
+(4)tb_conv.conv.IFMD_out[7:0]
+(5)tb_conv.conv.IFMD_out[7:0]
+(6)tb_conv.conv.IFMD_out[7:0]
+(7)tb_conv.conv.IFMD_out[7:0]
+@1401200
+-group_end
+@24
+tb_conv.conv.IFMD_read
+@200
+-
+@c00024
+tb_conv.conv.state[5:0]
+@28
+(0)tb_conv.conv.state[5:0]
+(1)tb_conv.conv.state[5:0]
+(2)tb_conv.conv.state[5:0]
+(3)tb_conv.conv.state[5:0]
+(4)tb_conv.conv.state[5:0]
+(5)tb_conv.conv.state[5:0]
+@1401200
+-group_end
+@24
+tb_conv.conv.count[5:0]
+@200
+-
+@24
+tb_conv.conv.conv_start
+tb_conv.conv.conv_done
+@200
+-
+@24
+tb_conv.conv.win_add0_dbg[5:0]
+tb_conv.conv.win_add1_dbg[5:0]
+tb_conv.conv.win_add2_dbg[5:0]
+tb_conv.conv.win_add3_dbg[5:0]
+tb_conv.conv.win_add4_dbg[5:0]
+tb_conv.conv.win_add5_dbg[5:0]
+tb_conv.conv.win_add6_dbg[5:0]
+tb_conv.conv.win_add7_dbg[5:0]
+tb_conv.conv.win_add8_dbg[5:0]
+@200
+-
+-FSM
+@24
+tb_conv.fsm.clk
+tb_conv.fsm.conv_done
+tb_conv.fsm.conv_start
+tb_conv.fsm.fsm_done
+tb_conv.fsm.start_fsm
+tb_conv.fsm.state[1:0]
+tb_conv.fsm.write_done
+tb_conv.fsm.write_en
+@200
+-
+-Read data
+@24
+tb_conv.read_data.clk
+tb_conv.read_data.IFMD_in[7:0]
+tb_conv.read_data.IFMD_write
+tb_conv.read_data.count[6:0]
+tb_conv.read_data.write_addr[5:0]
+tb_conv.read_data.write_done
+tb_conv.read_data.write_en
+tb_conv.read_data.write_state[1:0]
+@200
+-
+-IFME ram
+@24
+tb_conv.IFMD_ram.clk
+tb_conv.IFMD_ram.IFMD_in[7:0]
+tb_conv.IFMD_ram.IFMD_out[7:0]
+tb_conv.IFMD_ram.IFMD_read
+tb_conv.IFMD_ram.IFMD_write
+tb_conv.IFMD_ram.read_addr[5:0]
+tb_conv.IFMD_ram.write_addr[5:0]
+[pattern_trace] 1
+[pattern_trace] 0
